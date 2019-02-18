@@ -11,6 +11,11 @@ p{
     padding-left: 20px;
     padding-right: 20px;
 }
+input{
+    margin-left: 20px;
+    width: 920px;
+    font-size: 14px;
+}
 h1{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,20 +38,21 @@ h1{
     border: 2px #dddddd;
     border-style: solid;
     width: 960px;
+    height: auto;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
     clear: both;
 }
-.footer{
+footer{
     background-color: #666666;
-    clear: left;
+    /*clear: left;*/
 }
 .copyright{
     text-align: center;
 }
 body{
-    background-image: url('dark-paths.png');
+    background-image: url("../images/dark-paths.png");
     background-color: royalblue;
     
 }
@@ -67,4 +73,21 @@ nav{
 }
 hr{
     width: 920px;
+}
+#submitbutton{
+    margin: 20px;
+    background-color: #4aaaa5;
+    width: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+textarea{
+    margin-left: 20px;
+    width: 920px;
+}
+.img-container{
+    width: 300px;
+    height: 150px;
 }
