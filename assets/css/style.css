@@ -47,11 +47,16 @@ h1{
 }
 footer{
     background-color: #666666;
-    /*clear: left;*/
-}
-.copyright{
+    color: white;
     text-align: center;
+    padding-top:20px;
+    position: fixed;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0%;
 }
+
 body{
     background-image: url("../images/dark-paths.png");
     background-color: royalblue;
