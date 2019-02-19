@@ -95,8 +95,10 @@ textarea{
     width: 300px;
     margin-left: 20px;
     height: 150px;
-    /*left: 50%;*/
     display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-right: 10px;
 }
 .placeholder{
     width: 300px;
@@ -116,6 +118,5 @@ textarea{
     padding-bottom: 8px;
 }
 #tag1{
-    /*left: 150%;*/
     z-index: 1;
 }
